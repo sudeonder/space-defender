@@ -331,54 +331,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1335952258 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8773542483580949178, guid: 0107e9d753e8d4b4a9b99489bff51b7e, type: 3}
-  m_PrefabInstance: {fileID: 5516875740159012126}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1335952260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335952258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 803824fde747c46e5a2855d648d381b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
---- !u!114 &1335952261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335952258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: b82dbab9c61104a21a769578dbd76a25, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1001 &279605870274352742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -491,13 +443,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8773542483580949178, guid: 0107e9d753e8d4b4a9b99489bff51b7e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1335952261}
-    - targetCorrespondingSourceObject: {fileID: 8773542483580949178, guid: 0107e9d753e8d4b4a9b99489bff51b7e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1335952260}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0107e9d753e8d4b4a9b99489bff51b7e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
