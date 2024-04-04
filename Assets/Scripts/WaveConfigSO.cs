@@ -9,7 +9,8 @@ public class WaveConfigSO : ScriptableObject
     // A ScriptableObject in Unity is a data container that can hold any 
     //type of data you want to create. It is a type of asset that you can create 
     //and customize within the Unity Editor and then use within your game code.
-
+    [SerializeField]
+    private List<GameObject> enemyPrefabs;
     [SerializeField]
     Transform pathPrefab;
     [SerializeField]
@@ -33,5 +34,15 @@ public class WaveConfigSO : ScriptableObject
     public float GetMoveSpeed()
     {
         return moveSpeed;
+    }
+
+    public int GetNumberOfEnemies()
+    {
+        return enemyPrefabs.Count;
+    }
+
+    public GameObject GetEnemyPrefab(int index)
+    {
+        return enemyPrefabs[index];
     }
 }
