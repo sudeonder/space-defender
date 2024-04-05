@@ -291,6 +291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c25f811f27a3465f98faaa2e11d782b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isLooping: 1
   waveConfigs:
   - {fileID: 11400000, guid: 469692dd2b82943db9f0e9de01d5bc9d, type: 2}
   - {fileID: 11400000, guid: cad62ff9ca989460480aceef5b2d0c90, type: 2}
@@ -388,11 +389,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2347057543395293303, guid: 0107e9d753e8d4b4a9b99489bff51b7e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.58
       objectReference: {fileID: 0}
     - target: {fileID: 2347057543395293303, guid: 0107e9d753e8d4b4a9b99489bff51b7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.72
       objectReference: {fileID: 0}
     - target: {fileID: 2347057543395293303, guid: 0107e9d753e8d4b4a9b99489bff51b7e, type: 3}
       propertyPath: m_LocalPosition.z
