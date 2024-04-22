@@ -9,13 +9,17 @@ public class Health : MonoBehaviour
     [SerializeField] private int score = 50;
     [SerializeField] private ParticleSystem hitEffect;
     [SerializeField] bool applyCameraShake;
-    ScoreKeeper scoreKeeper;
-    CameraShake cameraShake;
+    private ScoreKeeper scoreKeeper;
+    private CameraShake cameraShake;
+    private LevelManager levelManager;
+
 
     void Awake()
     {
+        // find references
         cameraShake = Camera.main.GetComponent<CameraShake>();
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
+        levelManager = FindObjectOfType<LevelManager>();
     }
 
 
@@ -51,6 +55,9 @@ public class Health : MonoBehaviour
         if(!isPlayer)
         {
             scoreKeeper.ModifyScore(score);
+        }
+        else{
+            levelManager.LoadGameOver();
         }
         Destroy(gameObject);
     }
