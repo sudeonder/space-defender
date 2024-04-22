@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Kenney Space SDF
+  m_Name: Title
   m_EditorClassIdentifier: 
-  hashCode: 354733959
+  hashCode: 98732960
   material: {fileID: 3620761615550318243}
-  materialHashCode: -244811833
+  materialHashCode: -1757382272
   m_Version: 1.1.0
   m_SourceFontFileGUID: 93a8c1d1dcf944c00875170ee9152d10
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 93a8c1d1dcf944c00875170ee9152d10, type: 3}
@@ -2505,7 +2505,7 @@ Material:
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
     - _EnvMatrixRotation: {r: 0, g: 0, b: 0, a: 0}
     - _FaceColor: {r: 1, g: 1, b: 1, a: 0.39607844}
-    - _GlowColor: {r: 0.26633143, g: 0.49852806, b: 0.8962264, a: 0.5}
+    - _GlowColor: {r: 0.26666662, g: 0.8980392, b: 0.7382807, a: 0.5}
     - _MaskCoord: {r: 0, g: 0, b: 32767, a: 32767}
     - _OutlineColor: {r: 0, g: 0.4412418, b: 1.8679246, a: 1}
     - _ReflectFaceColor: {r: 0, g: 0, b: 0, a: 1}
